@@ -724,18 +724,19 @@ section,
   margin: 0;
   font-size: 48px;
   font-weight: 700;
+  color: lightcoral;
 }
 
 .hero p {
   margin: 10px 0 0 0;
   font-size: 24px;
-  color: var(--heading-color);
+  color: lightcoral;
 }
 
 .hero .btn-get-started {
-  color: var(--contrast-color);
-  background: var(--accent-color);
-  font-family: var(--heading-font);
+  color: red;
+  background: red;
+  font-family: red;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 12px;
@@ -817,14 +818,14 @@ section,
 }
 
 .skills .progress-bar-wrap {
-  background: color-mix(in srgb, var(--default-color), transparent 90%);
+  background:rgba(0, 0, 0, 0.1);
   height: 10px;
 }
 
 .skills .progress-bar {
-  width: 1px;
+  width: 0%;
   height: 10px;
-  transition: 0.9s;
+  transition: 0.9s ease-in-out;
   background-color: var(--accent-color);
 }
 
